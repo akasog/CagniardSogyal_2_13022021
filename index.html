@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reversia</title>
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -13,7 +14,9 @@
 </head>
 
 <body>
-    <div id="bloc_page">
+
+    <!--- EN TÊTE / NAVIGATION --->
+
     <header>
         <div id="en_tete">
             <div id="logo">
@@ -22,94 +25,107 @@
             <p id="inscription">S'inscrire</p>
         </div>
         
-            <nav>
-                <a href="#hebergement">Hébergements</a>
-                <a href="#activités">Activités</a>
-            </nav>
+        <nav>
+            <a href="#hebergement">Hébergements</a>
+            <a href="#activités">Activités</a>
+        </nav>
 
     </header>
 
-            <section id="titre_recherche">            
-                 <h1>Trouvez votre hébergement pour des vacances de rêves</h1>
-                    <p>En plein centre ville ou en pleine nature</p>
-                        
-                    <div id="recherche">
-                        <div id="marqueur_map">
-                            <i class="fas fa-map-marker-alt"></i>
-                        </div>
-                         <input type="search" value="Marseille, France"> 
-                            
-                            <div id="bouton_recherche">
-                                <i class="fas fa-search"></i>
-                            </div>
-                    </div>
-            </section>
+    <section id="titre_recherche">            
+        <h1>Trouvez votre hébergement pour des vacances de rêves</h1>
+        <p>En plein centre ville ou en pleine nature</p>
+            
+        <div id="recherche">
+            <div id="marqueur_map">
+                <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <input type="search" value="Marseille, France"> 
+            
+            <div id="bouton_recherche">
+                <i class="fas fa-search"></i>
+            </div>
+        </div>
+    </section>
+
+    <!--- EN TÊTE / NAVIGATION --->
+
+    <!--- FILTRES --->
 
             <h2>Filtres</h2>
 
-                     <section id="filtres">
-                        <ul>
-                            <li id="economique">
-                                <a href="economique">Économique</a>
-                                <div id="icone1">
-                                    <i class="fas fa-money-bill-wave"></i>
-                                </div>
-                            </li> 
+    <section id="filtres">
+        <ul>
+            <li id="economique">
+                <label id="icone1">
+                    <i class="fas fa-money-bill-wave"> </i>
+                </label>
+                <a href="economique">Économique</a>
+            </li> 
 
-                                <li id="romantique">
-                                    <a href="romantique">Romantique</a>
-                                    <i class="fas fa-heart"></i>
-                                </li>
+            <li id="romantique">
+                <label id="icone2">
+                <i class="fas fa-heart"></i>
+                </label>
+                <a href="romantique">Romantique</a>
+            </li>
 
-                                    <li id="animaux">
-                                        <a href="animaux-autorisés">Animaux autorisés</a>
-                                        <i class="fas fa-dog"></i>
-                                    </li>
+            <li id="animaux">
+                <label id="icone3">
+                <i class="fas fa-dog"></i>
+                </label>
+                <a href="animaux-autorisés">Animaux autorisés</a>
+            </li>
 
-                                        <li id="familial">
-                                            <a href="familial">Familial</a>
-                                            <i class="fas fa-child"></i>
-                                        </li>
-                        </ul> 
-                    </section>
-                    <div id="logements">
-                        <i class="fas fa-info-circle"></i> <p> Plus de 500 logements sont disponibles dans cette ville</p>
-                    </div>
+            <li id="familial">
+                <label id="icone4">
+                <i class="fas fa-child"></i>
+                </label>
+                <a href="familial">Familial</a>
+                
+            </li>
+        </ul> 
+    </section>
+
+            <div id="logements">
+                <i class="fas fa-info-circle"></i> <p> Plus de 500 logements sont disponibles dans cette ville</p>
+            </div>
+    
+    <!--- FILTRES --->
     
     
-    
-                        <section id="populaires">
-                            <h2>Les plus populaires</h2> <i class="fas fa-chart-line"></i>
+    <section id="populaires">
+        <h2>Les plus populaires</h2> <i class="fas fa-chart-line"></i>
 
-                            <figure>
-                                <img src="img/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
-                                     alt="soeil du matin">
-                                <figcaption>
-                                    Hôtel Le soleil du matin <br/>
-                                    Nuit à partir de 128€ <br/>
-                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
-                                    
-                                </figcaption>
-                            </figure>
+        <figure>
+            <img src="img/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
+                    alt="soeil du matin">
+            <figcaption>
+                Hôtel Le soleil du matin <br/>
+                Nuit à partir de 128€ <br/>
+                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                
+            </figcaption>
+        </figure>
 
-                            <figure>
-                                <img src="img/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg"
-                                     alt="au coeur de l'eau">
-                                <figcaption>Au coeur de l'eau Chambre d'hôtes <br/>
-                                            Nuit à partir de 71€ <br/>
-                                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
-                                </figcaption>
-                            </figure>
+        <figure>
+            <img src="img/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg"
+                    alt="au coeur de l'eau">
+            <figcaption>Au coeur de l'eau Chambre d'hôtes <br/>
+                        Nuit à partir de 71€ <br/>
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+            </figcaption>
+        </figure>
 
-                            <figure>
-                                <img src="img/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg"
-                                     alt="tout bleu et blanc">
-                                <figcaption>Hôtel Tout bleu et Blanc <br/>
-                                            Nuit à partir de 68€ <br/>
-                                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
-                                </figcaption>
-                            </figure>
-                        </section>
+        <figure>
+            <img src="img/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg"
+                    alt="tout bleu et blanc">
+            <figcaption>Hôtel Tout bleu et Blanc <br/>
+                        Nuit à partir de 68€ <br/>
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+            </figcaption>
+        </figure>
+    </section>
 
 
     <section id=les_hebergements>
@@ -288,6 +304,5 @@
             </ul>
         </nav>
     </footer>
-    </div>
 </body>
 </html>

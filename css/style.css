@@ -1,17 +1,17 @@
-#bloc_page
-{
+body {
     width: 320px;
     margin: auto;
+    font-family: Raleway;
 }
 
-#logo img
-{
+/* EN TÊTE / NAVIGATION */
+
+#logo img {
     width: 35%;
     margin-left: 15px;
 }
 
-#inscription        /* trouver comment le mettre plus en bold */
-{
+#inscription {
     font-family: Raleway;
     font-weight: 700;
     font-size: 1em; 
@@ -19,14 +19,12 @@
     margin-right: 15px;;
 }
 
-#en_tete
-{
+#en_tete {
     display: flex;
     align-items:center;
 }
 
-header nav
-{
+header nav {
     display: flex;
     justify-content: space-around;
     margin-top: 20px;
@@ -37,20 +35,17 @@ header nav
     font-size: 1em;
 }
 
-nav a
-{
+nav a {
     width: 160px;
     padding-bottom: 15px;
     text-decoration: none;
     color: black;
     border-bottom: 3px solid #F2F2F2;
     text-align: center;
-    
 }
 
 
-nav a:hover
-{
+nav a:hover {
     width: 160px;
     border-bottom: 3px solid #0065FC;
     text-align: center;
@@ -59,47 +54,42 @@ nav a:hover
     font-weight: 600;
 }
 
-h1
-{
-    width: 280px;
+/* EN TÊTE / NAVIGATION */
+
+/* TITRE + BARRE DE RECHERCHE */
+
+h1 {
+    width: 260px;
+    margin-top: 30px;
     margin-left: 10px;
     font-family: Raleway;
     font-weight: 700;
-    font-size: 1.3em;
+    font-size: 1.2em;
     text-align: justify;
 }
 
-#titre_recherche p
-{
+#titre_recherche p {
     width: 300px;
     font-family: Raleway;
     font-size: 0.9em;
-    margin-left: 5px;
+    margin-left: 10px;
 }
 
-#recherche
-{
-    width: 315px;
+#recherche {
+    width: 310px;
+    margin-top: 20px;
     display: flex;
     justify-content: left;
     align-items: baseline; 
     border: 1px solid #F2F2F2;
-    border-radius: 16px;
-
+    border-radius: 18px;
 }
 
-#marqueur_map
-{
-    width: 50px;
-    height: 50px;
-    text-align: center;
-    line-height: 50px;
-    border-radius: 16px;
-    background-color: #F2F2F2;
+#titre_recherche p {
+    margin-top: 15px;
 }
 
-input
-{   
+input {   
     border: none;
     text-align: center;
     font-family: Raleway;
@@ -108,19 +98,31 @@ input
     padding: 11px;
 }
 
-#bouton_recherche
-{
+/* TITRE + BARRE DE RECHERCHE */
+
+/* FILTRES */
+
+#marqueur_map {
+    width: 55px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 16px 0px 0px 16px;
+    background-color: #F2F2F2;
+    
+}
+
+#bouton_recherche {
     width: 50px;
     height: 50px;
     color: white;
     text-align: center;
     line-height: 50px;
     background-color: #0065FC;
-    border-radius: 16px;
+    border-radius: 16px
 }
 
-h2
-{
+h2 {
     color: black;
     font-family: Raleway;
     font-weight: 700;
@@ -129,46 +131,148 @@ h2
     margin-top: 20px;
 }
 
-#filtres ul
-{
-    list-style: none;
-    font-family: Raleway;
-    font-weight: 700;
-    font-size: 0.9em;
-}
-
-#filtres a
-{
+#filtres a {
     color: black;
     text-decoration: none;
 }
 
-#icone1
-{
-    width: 30px;
-    height: 30px;
-    margin-right: 10px;;
-    background-color: #DEEBFF;
-    border-radius: 50px;
-    text-align: center;
-    line-height: 30px;
-    color: #0065FC;
+#filtres li {
+    list-style: none;
+    margin-bottom: 20px;
+    font-family: Raleway;
+    font-weight: 800;
     font-size: 0.8em;
 }
 
-#economique
-{
-    width: 126px;
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-    border: 1px solid #F2F2F2;
-    border-radius: 50px;
-    padding-right: 15px;
-    margin-bottom: 15px;
+#filtres {
+    margin-left: -30px;
 }
 
+#economique {
+    display: flex;
+    align-items: center;
+    text-align: right;
+    line-height: 35px;
+}
 
+#economique a {   
+    width: 120px;
+    height: 35px;
+    margin-top: 15px;
+    margin-left: 120px;
+    border: 1px solid #F2F2F2;
+    border-radius: 20px;
+    padding-right: 10px;
+}
 
+#icone1 {
+    color: #0065FC;
+    background-color: #DEEBFF;
+    margin-right: 15px;
+    margin-top: 15px;
+    margin-left: 120px;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 20px;
+    position: absolute;
+    z-index: 1;
+}
 
+#romantique {
+    display: flex;
+    align-items: center;
+    text-align: right;
+    line-height: 35px;
+}
+
+#romantique a {   
+    width: 118px;
+    height: 35px;
+    margin-top: -5px;
+    margin-left: 120px;
+    border: 1px solid #F2F2F2;
+    border-radius: 20px;
+    padding-right: 10px;
+}
+
+#icone2 {
+    color: #0065FC;
+    background-color: #DEEBFF;
+    margin-right: 15px;
+    margin-top: -5px;
+    margin-left: 120px;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 20px;
+    position: absolute;
+    z-index: 1;
+}
+
+#animaux {
+    display: flex;
+    align-items: center;
+    text-align: right;
+    line-height: 35px;
+}
+
+#animaux a {   
+    width: 155px;
+    height: 35px;
+    margin-top: -5px;
+    margin-left: 120px;
+    border: 1px solid #F2F2F2;
+    border-radius: 20px;
+    padding-right: 10px;
+}
+
+#icone3 {
+    color: #0065FC;
+    background-color: #DEEBFF;
+    margin-right: 15px;
+    margin-top: -5px;
+    margin-left: 120px;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 20px;
+    position: absolute;
+    z-index: 1;
+}
+
+#familial {
+    display: flex;
+    align-items: center;
+    text-align: right;
+    line-height: 35px;
+}
+
+#familial  a {   
+    width: 90px;
+    height: 35px;
+    margin-top: -5px;
+    margin-left: 120px;
+    border: 1px solid #F2F2F2;
+    border-radius: 20px;
+    padding-right: 10px;
+}
+
+#icone4 {
+    color: #0065FC;
+    background-color: #DEEBFF;
+    margin-right: 15px;
+    margin-top: -5px;
+    margin-left: 120px;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 20px;
+    position: absolute;
+    z-index: 1;
+}
 
