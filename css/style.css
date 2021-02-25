@@ -229,6 +229,7 @@ h2 {
 }
 
 #logements p {
+    margin-left: -10px;
     font-size: 0.9em;
 }
 
@@ -314,22 +315,22 @@ aside figure:hover{
 
 /* HEBERGEMENTS */
 
-#les_hebergements {
+section {
     display: flex;
     flex-direction: column;
 }
 
-#les_hebergements h2 {
+section h2 {
     font-size: 1.1em;
     margin: 30px 0px 20px 20px; 
 }
 
-#les_hebergements a {
+section a {
     color: black;
     text-decoration: none;
 }
 
-#les_hebergements img {
+section img {
     width: 290px;
     height: 95px;
     object-fit: cover;
@@ -338,7 +339,7 @@ aside figure:hover{
     border-radius: 10px 10px 0px 0px;
 }
 
-#les_hebergements figure {
+section figure {
     display: flex;
     flex-direction: column;
     margin-left: 10px;
@@ -350,88 +351,73 @@ aside figure:hover{
     margin-bottom: 25px;
 }
 
-#les_hebergements figcaption {
+section figcaption {
     margin: 10px 0px 0px 15px;
     font-size: 0.9em;
     font-weight: 800;
 }
 
-#les_hebergements span {
+section span {
     display: inline-block;
     margin-top: 5px;
     font-size: 0.8em;
     font-weight: 500;
 }
 
-#les_hebergements figure i {
+section figure i {
     margin-top: 5px;
     font-size: 0.6em;
     color: #0065FC;
 }
 
-#les_hebergements figure:hover{
+section figure:hover{
     box-shadow: 2px 5px 5px #F2F2F2;
     -webkit-transition: all 0.2s ease-in-out;
     -moz-transition: all 0.2s ease-in-out;
     -webkit-transform: scale(1.02);
 }
 
-#les_hebergements p {
+section p {
     font-weight: 800;
+    margin-left: 10px;
 }
 
 /* ACTIVITÉS */
 
-#les_activités
-
-section figcaption
-
-/*
-aside h2{
-    font-size: 1.2em;
-}
-
-#charts {
-    font-size: 1.2em;
-
-}
-
-aside div {
-    margin-right: 10px;
-    padding-bottom: 30px;
-}
-
-aside img {
-    width: 100px;
-    height: 110px;
-    border-radius: 10px 0px 0px 10px;
+#les_activités img {
+    width: 300px;
+    margin-top: 0px;
     object-fit: cover;
 }
 
-#coeur {
-    margin-left: 5px;
+#les_activités figcaption {
+    line-height: 50px;
 }
 
-aside figure {
-    width: 295px;
-    height: 120px;
-    background-color: white;
-    border-radius: 15px;
-    box-shadow: 1px 1px 10px lightgray;
-    margin-top: 10px;
+
+/* NAV FOOTER */
+
+footer {
+    background-color: #F2F2F2;
+    width: 330px;
+    height: 400px;
 }
 
-aside figcaption {
-    margin-left: 10px;
+h3 {
+    font-weight: 800;
+    padding-top: 30px;
+    padding-left: 20px;
+    margin-bottom: 20px;
 }
 
-aside label {
-    width: 110px;
+footer nav a:hover {
+    border: none;
+}
+
+
+footer li {
     font-size: 0.8em;
-    font-weight: 700;
-}
-
-aside p {
-    font-size: 0.7em;
-    font-weight: 400;
+    font-weight: 500;
+    margin-left: 20px;
+    margin-bottom: 10px;
 }
