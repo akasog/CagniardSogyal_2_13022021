@@ -1,0 +1,81 @@
+@media screen and (min-width: 768px) {
+    body {
+        width: 768px;
+        margin: auto;
+        font-family: Raleway;
+    }
+    
+
+    #en_tete {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 30px;
+    }
+
+    #logo img {
+        width: 20%;
+    }
+
+    #inscription {
+        font-size: 0.9em;
+    }
+
+    header nav {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: -27px;
+        margin-right: 120px;
+        font-size: 0.9em;
+    }
+
+    nav a {
+            border-bottom: none;
+    }
+
+    nav a:hover {
+        border-bottom: none;
+        border-top: 3px solid #0065FC;
+        padding-top: 15px;
+        margin-top: -20px;
+    }
+        
+    #titre_recherche h1{
+        width: 768px;
+    }
+
+    #titre_recherche {
+        margin-left: 15px;
+    }
+
+    /*FILTRES*/
+
+    h2 {
+        margin-left: 22px;
+    }
+
+    #filtres ul {
+        display: flex;
+        flex-direction: row;
+        margin-right: 30px;
+    }
+
+    #logements {
+        display: flex;
+        align-items: center;
+        width: 420px;
+    }
+
+    #info {
+        width: 18px;
+        height: 18px;
+    }
+
+
+
+
+
+
+
+}
