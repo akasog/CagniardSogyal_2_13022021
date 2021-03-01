@@ -9,9 +9,7 @@
     #en_tete {
         display: flex;
         justify-content: space-between;
-        margin-left: 10px;
-        margin-right: 10px;
-        margin-top: 30px;
+        margin: 30px 10px 0px 10px;
     }
 
     #logo img {
@@ -49,8 +47,13 @@
         margin-left: 15px;
     }
 
+    #recherche {
+        margin-bottom: 20px;
+    }
+
     /*FILTRES*/
 
+    
     h2 {
         margin-left: 22px;
     }
@@ -73,9 +76,95 @@
     }
 
 
+    /*ASIDE POPULAIRES*/
+    
+
+    aside {
+        width: 710px;
+        height: 200px;
+        border-radius: 30px;
+        padding-left: 10px;
+        margin-top: 50px;
+        margin-left: 20px;
+    }
+
+    aside h2,
+    #charts {
+        margin-left: 18px
+    }
+
+    aside a {
+        display: inline-block;
+        width: 220px;
+        margin-right: 10px;
+    }
+
+    aside figure {
+        width: 220px;
+        margin-left: 5px;
+    }
+
+    aside img {
+        width: 100px;
+        height: 100px;
+        margin-left: 5px;
+    }
+
+    aside figcaption {
+        width: 105px;
+        height: 100px;
+        margin-top: 10px;
+    }
+    
+    aside figure i {
+        margin-top: 20px;
+    }
 
 
+    /* HEBERGEMENTS ACTIVITÉS*/ 
 
+    #les_hebergements {
+        margin-top: 30px;
+        background-color: #F2F2F2;
+        width: 700px;
+        height: 660px;
+        margin-left: 30px;
+        border-radius: 30px;
 
+    }
 
+    #les_hebergements div,
+    #les_activités div {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around
+    }
+
+    #les_hebergements p {
+        margin-left: 20px;
+    }
+
+    #les_activités {
+        margin-top: 30px;
+    }
+
+    #les_activités h2 {
+        margin-left: 45px;
+    }
+    
+    /* FOOTER */
+
+    footer {
+        width: 768px;
+        height: 300px;
+    }
+
+    footer ul {
+        display: flex;
+        justify-content: center;
+    }
+
+    h3 {
+        text-align: center;
+    }
 }
