@@ -1,0 +1,365 @@
+@media screen and (min-width: 1440px) {
+    body {
+        width: 1440px;
+        margin: auto;
+        font-family: Raleway;
+    }
+
+    /*FILTRES*/
+
+    #filtres h2 {
+        margin-left: 55px;
+        margin-top: 0px;
+    }
+
+    #filtres ul {
+        margin-left: 80px;
+        margin-top: -50px;
+    }
+
+    #filtres li {
+        margin-right: -20px;
+    }
+
+    #logements {
+        margin-top: 20px;
+    }
+
+    /*ASIDE*/
+
+    aside {
+        display: flex;
+        flex-direction: column;
+        margin-left: 1060px;
+        width: 350px;
+        height: 500px;
+    }
+
+    aside figure {
+        width: 300px;
+        margin: 10px 0px 20px 20px;
+    }
+
+    aside img {
+        margin-left: -5px;
+        width: 105px;
+        height: 105px;
+    }
+
+    aside figcaption {
+        width: 160px;
+        margin-top: 30px;
+    }
+
+
+    aside  h2{
+        margin-left: 25px;
+    }
+
+    #charts {
+        margin-right: 15px;
+    }
+
+    /*HEBERGEMENTS*/
+
+    #les_hebergements {
+        display: flex;
+        justify-content: center;
+        margin-top: -508px;
+        margin-left: 15px;
+        width: 1000px;
+        height: 510px;
+    }
+
+    #les_hebergements h2 {
+        margin-left: 40px;
+        margin-top: -5px;
+    }
+
+    #les_hebergements img {
+        width: 250px;
+        height: 80px;
+    }
+
+    #les_hebergements figure {
+        width: 260px;
+        margin-left: -5px;
+    }
+
+    #les_hebergements span {
+        margin-top: 10px;
+    }
+
+    #les_hebergements i {
+        margin-top: 10px;
+    }
+
+    #les_hebergements p {
+        padding-top: 10px;
+        margin-left: 40px;
+    }
+
+    /*ACTIVITÉS*/ 
+
+    #les_activités {
+        height: 500px;
+    }
+
+
+    #fort_frioul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    
+    #fort_pomegues {
+        height: 210px;
+    }
+
+    #fort_pomegues img {
+        height: 160px;
+    }
+
+    #fort_pomegues figcaption {
+        margin-top: 0px;
+    }
+
+    #iles_frioul {
+        height: 160px;
+    }
+
+    #iles_frioul img {
+        height: 110px;
+    }
+
+    #iles_frioul figcaption {
+        margin-top: 0px;
+    }
+
+    #dame_parc {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #notre_dame {
+        height: 185px;
+    }
+
+    #notre_dame img {
+        height: 140px;
+    }
+
+    #notre_dame figcaption {
+        margin-top: 0px;
+    }
+
+    #parc_longchamps {
+        height: 185px;
+    }
+
+    #parc_longchamps img{
+        height: 140px;
+    }
+
+    #parc_longchamps figcaption {
+        margin-top: 0px;
+    }
+
+    #vieux_port {
+        height: 400px;
+        width: 300px;
+    }
+
+    #vieux_port img {
+        height: 380px;
+        width: 300px;
+    }
+
+    #vieux_port figcaption {
+        margin-top: 0px;
+    }
+
+    #calanques {
+        height: 400px;
+        width: 300px;
+    }
+
+    #calanques img {
+        height: 380px;
+        width: 300px;
+    }
+
+    #calanques figcaption {
+        margin-top: 0px;
+    }
+
+
+    /*FOOTER*/
+    
+    footer {
+        display: flex;
+        width: 1440px;
+        height: 150px;
+    }
+    
+    #propos h3 {
+        text-align: left;
+    }
+
+    #propos {
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+    }
+
+    #propos ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #nos_hebergements h3 {
+        margin-bottom: 16px;
+        margin-left: -300px;
+    }
+
+    #nos_hebergements {
+        display: flex;
+        flex-direction: column;
+        margin-left: 350px;
+        margin-top: -130px;
+    }
+
+    #nos_hebergements ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #assistance h3 {
+        margin-left: 0px;
+        margin-bottom: 15px;
+    }
+
+    #assistance {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 700px;
+        margin-top: -105px;
+    }
+
+    #assistance ul {
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+    }
+
+    /*
+
+    #les_activités {
+        width: 1440px;
+        margin-left: -20px;
+    }
+
+    #les_activités figcaption{
+        font-size: 1em;
+    }
+
+    #vieux_port{
+        height: 400px;
+    }
+
+    #vieux_port img{
+        height: 350px;
+    }
+
+    #vieux_port figcaption{
+        margin-top: 0px;
+    }
+
+    #fort_pomegues {
+        position: relative;
+        height: 220px;
+        right: -5px;
+        
+    }
+
+    #fort_pomegues img{
+        height: 170px;
+    }
+
+    #fort_pomegues figcaption{
+        margin-top: 0px;
+    }
+
+    #iles_frioul{
+        position: relative;
+        top: 250px;
+        right: 355px;
+        height: 150px;
+    }
+
+    #iles_frioul img{
+        height: 100px;
+    }
+
+    #iles_frioul figcaption{
+        margin-top: 0px;
+    }
+
+    #calanques{
+        position: relative;
+        right: 350px;
+        height: 400px;
+    }
+
+    #calanques img{
+        height: 350px;
+    }
+
+    #calanques figcaption {
+        margin-top: 0px;
+    }
+
+    #notre_dame {
+        position: relative;
+        bottom: 425px;
+        left: 915px;
+        height: 180px;
+    }
+
+    #notre_dame img {
+        height: 140px;
+    }
+
+    #notre_dame figcaption {
+        margin-top: -5px;
+    }
+
+
+    #parc_longchamps {
+        position: relative;
+        right: -195px;
+        bottom: 210px;
+        height: 180px;
+    }
+
+    #parc_longchamps img {
+        height: 140px;
+    }
+
+    #parc_longchamps figcaption {
+        margin-top: -5px;
+    }
+
+    /*FOOTER*/
+/*
+    footer {
+        margin-top: -180px;
+        
+    }
+
+}
+
+
+    
+    
