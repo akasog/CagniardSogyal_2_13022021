@@ -1,0 +1,186 @@
+@media screen and (min-width: 768px) {
+    body {
+        width: 768px;
+        margin: auto;
+        font-family: Raleway;
+    }
+    
+
+    #en_tete {
+        display: flex;
+        justify-content: space-between;
+        margin: 30px 10px 0px 10px;
+    }
+
+    #logo img {
+        width: 20%;
+    }
+
+    #inscription {
+        font-size: 0.9em;
+    }
+
+    header nav {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: -27px;
+        margin-right: 120px;
+        font-size: 0.9em;
+    }
+
+    nav a {
+            border-bottom: none;
+    }
+
+    nav a:hover {
+        border-bottom: none;
+        border-top: 3px solid #0065FC;
+        padding-top: 15px;
+        margin-top: -20px;
+    }
+        
+    #titre_recherche h1{
+        width: 768px;
+    }
+
+    #titre_recherche {
+        margin-left: 15px;
+    }
+
+    #recherche {
+        margin-bottom: 20px;
+    }
+
+    /*FILTRES*/
+
+    
+    h2 {
+        margin-left: 22px;
+    }
+
+    #filtres ul {
+        display: flex;
+        flex-direction: row;
+        margin-right: 30px;
+    }
+
+    #logements {
+        display: flex;
+        align-items: center;
+        width: 420px;
+    }
+
+    #info {
+        width: 18px;
+        height: 18px;
+    }
+
+
+    /*ASIDE POPULAIRES*/
+    
+
+    aside {
+        width: 710px;
+        height: 200px;
+        border-radius: 30px;
+        padding-left: 10px;
+        margin-top: 50px;
+        margin-left: 20px;
+    }
+
+    aside h2,
+    #charts {
+        margin-left: 18px
+    }
+
+    aside a {
+        display: inline-block;
+        width: 220px;
+        margin-right: 10px;
+    }
+
+    aside figure {
+        width: 220px;
+        margin-left: 5px;
+    }
+
+    aside img {
+        width: 100px;
+        height: 100px;
+        margin-left: 5px;
+    }
+
+    aside figcaption {
+        width: 105px;
+        height: 100px;
+        margin-top: 10px;
+    }
+    
+    aside figure i {
+        margin-top: 20px;
+    }
+
+
+    /* HEBERGEMENTS ACTIVITÉS*/ 
+
+    #les_hebergements {
+        margin-top: 30px;
+        background-color: #F2F2F2;
+        width: 700px;
+        height: 660px;
+        margin-left: 30px;
+        border-radius: 30px;
+
+    }
+
+    #les_hebergements div,
+    #les_activités div {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around
+    }
+
+    #les_hebergements p {
+        margin-left: 20px;
+    }
+
+    #les_activités {
+        margin-top: 30px;
+    }
+
+    #les_activités h2 {
+        margin-left: 45px;
+    }
+
+    #vieux_port {
+        width: 610px;
+    }
+
+    #vieux_port img {
+        width: 610px;
+    }
+
+    #calanques {
+        width: 610px;
+    }
+
+    #calanques img{
+        width: 610px;
+    }
+    
+    /* FOOTER */
+
+    footer {
+        width: 768px;
+        height: 300px;
+    }
+
+    footer ul {
+        display: flex;
+        justify-content: center;
+    }
+
+    h3 {
+        text-align: center;
+    }
+}
